@@ -1,5 +1,5 @@
 data "aws_vpc" "default" {
-  default = true
+  default = false
 }
 
 data "aws_subnet_ids" "all" {
